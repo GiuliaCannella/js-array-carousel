@@ -1,0 +1,59 @@
+.container-fluid {
+    height: 100vh;
+    background-image: url("../img/sfondo.jpg");
+    
+}
+
+
+
+.container-fluid .gallery img {
+    border-radius: 2em;
+}
+
+.container-fluid .gallery img:hover {
+    cursor: pointer;
+    transform:scale(1.1)
+    
+}
+
+.gallery #prev {
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.1em;
+}
+
+.gallery #next {
+   right: -15%; 
+   position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.1em;
+}
+
+
+.gallery #prev:hover {
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}
+
+.gallery #next:hover {
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}
+
+.active {
+    display:block;
+}
+
